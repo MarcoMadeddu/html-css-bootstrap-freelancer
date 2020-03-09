@@ -1,0 +1,61 @@
+/* utilities */
+.bg-green{
+  background-color: #1bbc9b;
+}
+
+.color-white{
+  color: white;
+}
+
+/* Navbar */
+.navbar-default{
+  background-color: #2d3e50;
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.navbar-header .navbar-brand {
+  color: white;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: white;
+  text-transform: uppercase;
+}
+
+/* Header */
+
+
+header .col-md-12 img{
+  max-width: 200px;
+}
+
+header .col-md-12 h1{
+  font-size: 50px;
+}
+
+header li:nth-child(even)::before {
+   content: '-';
+   padding-right: 10px;
+ }
+
+header li:nth-child(even)::after {
+   content: '-';
+   padding-left: 10px;
+
+}
+
+/* jumbotron */
+.jumbotron{
+  background-color: white;
+}
+
+/* Portfolio */
+#portfolio .container{
+  color: #2c3e50;
+}
+
+#portfolio .row img {
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
