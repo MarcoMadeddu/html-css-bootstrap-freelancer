@@ -7,6 +7,27 @@
   color: white;
 }
 
+.color-black{
+  color: black;
+}
+
+.star{
+  position: relative;
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+
+.-row{
+  border-bottom: 2px solid white;
+  height: 16px;
+}
+
+.b-row{
+  border-bottom: 2px solid black;
+  height: 16px;
+}
+
+
 /* Navbar */
 .navbar-default{
   background-color: #2d3e50;
@@ -63,7 +84,7 @@ header li:nth-child(even)::after {
 
 /* About */
 #about h2{
-  padding: 50px 0px;
+  padding-top: 40px;
 }
 
 #about p{
@@ -79,7 +100,7 @@ header li:nth-child(even)::after {
 /* Contact */
 
 #contact h2{
-  padding: 30px 0;
+  padding: 20px 0;
 }
 
 #contact input,
@@ -108,7 +129,7 @@ header li:nth-child(even)::after {
   color: white;
 }
 #main-footer p{
- font-size: 21px; 
+ font-size: 21px;
 }
 
 #main-footer .col-lg-4 h4{
@@ -126,7 +147,7 @@ header li:nth-child(even)::after {
 #main-footer .list-inline .btn{
   background-color: #3A556C;
   color:white;
-  border: 1px solid white;
+  border: 2px solid white;
   border-radius: 50%;
 }
 
@@ -147,7 +168,7 @@ header li:nth-child(even)::after {
 }
 
 
-@media screen and (max-width: 520px){
+@media screen and (max-width: 820px){
   /*  about */
   #about p{
     margin: 10px 20px;
